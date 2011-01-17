@@ -1,0 +1,28 @@
+[aws]
+key = xxxxxxxxxxxxxxxxxxxx
+secret = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+[buckets]
+accounts = kt-act
+files = kt-files
+temp = kt-tmp
+
+[simpleDb]
+domain = KTLiveAccounts
+
+[dbRoot]
+username = xxxx
+password = xxxx
+_host = localhost
+
+[queues]
+controlQueue = ktControlQueue
+
+[solr]
+# these won't necessarily be running at any given time
+master = ec2-184-73-182-106.compute-1.amazonaws.com:8983
+slave = ec2-184-73-182-106.compute-1.amazonaws.com:8983
+
+[access]
+# not the real secret, obviously...
+secret = 85e9443a0adac3aaaa9a45220959e4b504126718
